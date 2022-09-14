@@ -1,0 +1,104 @@
+body {
+  background-color: #ccc;
+  font-family: cursive;
+  font-size: 1rem;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.header--tittle {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 40vh;
+  background: linear-gradient(rgba(162, 171, 225, 0.7), rgba(19, 39, 90, 0.7)), url("../img/banner.jpg");
+  background-position: center;
+  background-position-y: 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header .header--navbar {
+  position: relative;
+  top: -1rem;
+  display: flex;
+  justify-content: end;
+}
+header .header--navbar a {
+  color: white;
+  background-color: rgb(39, 84, 232);
+  border: 1px solid black;
+  box-shadow: 0.2rem 0.2rem rgb(52, 50, 50);
+  font-size: 1rem;
+  padding: 0.2rem 0.8rem;
+  margin-right: 0.5rem;
+  text-decoration: none;
+  display: block;
+}
+header .header--navbar a:first-child {
+  background-color: rgb(109, 170, 18);
+}
+header .header--tittle {
+  padding: 1rem 2rem;
+  margin: 0;
+  font-family: cursive;
+  font-size: 3rem;
+  font-weight: 400;
+}
+header div {
+  position: relative;
+}
+header h2 {
+  font-size: 1.4rem;
+  padding: 0.7rem;
+  margin: 0;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.main {
+  display: flex;
+}
+.main .main--aside {
+  height: 40vh;
+  min-width: max-content;
+}
+.main .main--info {
+  max-width: 80%;
+  padding: 3rem;
+}
+.main .main--info p {
+  margin-bottom: 2rem;
+  text-indent: 2rem;
+}
+.main .main--list {
+  padding: 3rem 2rem 0;
+  font-size: 1rem;
+}
+.main .main--list ul, .main .main--list li {
+  margin: 0;
+  padding: 0 1rem 0.5rem 1rem;
+  list-style: none;
+}
+.main .main--list p {
+  text-indent: 2rem;
+}
+.main aside {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+}
+.main aside .header--logo {
+  max-width: 150px;
+}
+
+/*# sourceMappingURL=mdhl.css.map */

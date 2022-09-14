@@ -1,0 +1,38 @@
+.main{
+    display: flex;
+
+    .main--aside{
+        height: 40vh;
+        min-width: max-content;
+    }
+    .main--info{
+        max-width: 80%;
+        padding: 3rem;
+        p{
+            margin-bottom: 2rem;
+            text-indent: 2rem;
+        }
+    }
+
+    .main--list{
+        padding: 3rem 2rem 0;
+        font-size: 1rem;
+        & ul, li{
+            margin: 0;
+            padding: 0 1rem .5rem 1rem;
+            list-style: none;
+        }
+        p{
+            text-indent: 2rem;
+        }
+    }
+    aside{
+        padding: 2rem;
+        display: flex;
+        align-items: center;
+        .header--logo{
+            max-width: 150px;
+        }
+    }
+}
+

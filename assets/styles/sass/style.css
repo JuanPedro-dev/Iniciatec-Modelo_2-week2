@@ -1,0 +1,72 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 40vh;
+  background: linear-gradient(rgba(162, 171, 225, 0.7), rgba(19, 39, 90, 0.7)), url("../img/header.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header .header--tittle {
+  padding: 1rem 2rem;
+  margin: 0;
+  font-family: cursive;
+  font-size: 3rem;
+  font-weight: 400;
+}
+header div {
+  position: relative;
+}
+header h2 {
+  font-size: 1.4rem;
+  padding: 0.7rem;
+  margin: 0;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+header .header--logo {
+  position: absolute;
+  right: 6rem;
+  bottom: -2rem;
+  max-width: 150px;
+}
+
+body {
+  background-color: #ccc;
+  font-family: cursive;
+  font-size: 1.5rem;
+}
+
+*, *::after, *::before {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+main .main--list {
+  padding: 3rem 2rem 0;
+  font-size: 1.5rem;
+}
+main .main--list ul, main .main--list li {
+  margin: 0;
+  padding: 0 1rem 0.5rem 1rem;
+  list-style: none;
+}
+main a {
+  text-decoration: none;
+}
+main a .word--black {
+  color: black;
+}
+main section > nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  padding-left: 3rem;
+  padding-right: 2rem;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,55 @@
+.header--tittle{
+    font-size: 2rem;
+    margin: 1rem;
+
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40vh;
+    background: linear-gradient(rgba(162, 171, 225, 0.7),rgba(19, 39, 90, 0.7)), url("../img/banner.jpg");
+    background-position: center;
+    background-position-y: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .header--navbar{
+        position: relative;
+        top: -1rem;
+        display: flex;
+        justify-content: end;
+        a {
+            color: white;
+            background-color: rgb(39, 84, 232);
+            border: 1px solid black;
+            box-shadow: .2rem 0.2rem rgb(52, 50, 50);
+            font-size: 1rem;
+            padding: .2rem .8rem;
+            margin-right:.5rem ;
+            text-decoration: none;
+            display: block;
+            &:first-child{
+                background-color: rgb(109, 170, 18);
+            }
+        }
+    }
+    .header--tittle{
+        padding: 1rem 2rem;
+        margin: 0;
+        font-family: cursive;
+        font-size: 3rem;
+        font-weight: 400;
+    }
+    div{
+        position: relative;
+    }
+    h2{
+        font-size: 1.4rem;
+        padding: .7rem;
+        margin: 0;
+        text-align: center;
+        background-color: black;
+        color: white;
+    }
+
+}
