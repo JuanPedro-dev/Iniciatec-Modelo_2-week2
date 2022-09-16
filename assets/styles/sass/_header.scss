@@ -1,14 +1,13 @@
-.header--tittle{
+.header--title{
     font-size: 2rem;
     margin: 1rem;
-
 }
 header{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 40vh;
-    background: linear-gradient(rgba(162, 171, 225, 0.7),rgba(19, 39, 90, 0.7)), url("../img/banner.jpg");
+    background: linear-gradient(rgba(162, 171, 225, 0.531),rgba(19, 39, 90, 0.7)), url("../img/banner.jpg");
     background-position: center;
     background-position-y: 40%;
     background-repeat: no-repeat;
@@ -28,12 +27,12 @@ header{
             margin-right:.5rem ;
             text-decoration: none;
             display: block;
-            &:first-child{
-                background-color: rgb(109, 170, 18);
-            }
         }
+        .bg-green{
+            background-color: rgb(109, 170, 18);
+          }
     }
-    .header--tittle{
+    .header--title{
         padding: 1rem 2rem;
         margin: 0;
         font-family: cursive;
@@ -51,5 +50,4 @@ header{
         background-color: black;
         color: white;
     }
-
 }
