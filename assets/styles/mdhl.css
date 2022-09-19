@@ -10,7 +10,7 @@ body {
   margin: 0;
 }
 
-.header--tittle {
+.header--title {
   font-size: 2rem;
   margin: 1rem;
 }
@@ -19,8 +19,8 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 40vh;
-  background: linear-gradient(rgba(162, 171, 225, 0.531), rgba(19, 39, 90, 0.7)), url("../img/banner.jpg");
+  height: 60vh;
+  background: url("../img/banner.jpg");
   background-position: center;
   background-position-y: 40%;
   background-repeat: no-repeat;
@@ -46,7 +46,7 @@ header .header--navbar a {
 header .header--navbar .bg-green {
   background-color: rgb(109, 170, 18);
 }
-header .header--tittle {
+header .header--title {
   padding: 1rem 2rem;
   margin: 0;
   font-family: cursive;
